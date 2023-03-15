@@ -10,7 +10,7 @@ public class Exercicio3 {
 		DecimalFormat df = new DecimalFormat("###,###,##0.00");
 		Scanner leia = new Scanner(System.in);
 	
-		float salarioBruto, adicionalNoturno, horasExtras, descontos, salarioLiquido;
+		float salarioBruto, adicionalNoturno, horasExtras, descontos;
 		
 		System.out.println("Digite seu Salário Bruto: ");
 		salarioBruto = leia.nextFloat();
