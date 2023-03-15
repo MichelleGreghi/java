@@ -8,12 +8,9 @@ public class Exercicio2 {
 	public static void main(String[] args) {
 		
 		DecimalFormat df = new DecimalFormat("###,###,##0.0");
-		
 		Scanner leia = new Scanner(System.in);
 		
-	
 		float nota1, nota2, nota3, nota4;
-		
 		
 		System.out.println("Digite sua nota: ");
 		nota1 = leia.nextFloat();
