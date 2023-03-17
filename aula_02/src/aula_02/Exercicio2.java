@@ -21,6 +21,8 @@ public class Exercicio2 {
 			System.out.println("O Número " + numero + " é ímpar e positivo!");
 		else 
 			System.out.println("O Número " + numero + " é ímpar e negativo!");
+		
+		leia.close();
 	}
 
 }

@@ -60,12 +60,7 @@ public class SwitchExercicio2 {
 	        	break;
 	        default:
 	        	System.out.println("Opção Inválida!");
-	        
-		
-		
-		
-		
-		
+	        		
 		leia.close();
 
 		 }

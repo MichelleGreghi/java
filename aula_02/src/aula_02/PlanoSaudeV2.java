@@ -42,9 +42,9 @@ public class PlanoSaudeV2 {
             	break;
             default:
             	System.out.println("Idade Inválida!");
+            	
+            	leia.close();
         	
-        }
-		leia.close();
-	}
-
+        	}
+		}
 }
