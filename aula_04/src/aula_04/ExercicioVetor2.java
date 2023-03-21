@@ -17,7 +17,7 @@ public class ExercicioVetor2 {
 		}	
 		
 		System.out.println("Elementos Pares: ");
-		for(int contador = 0; contador < vetor.length; contador ++) {
+		for(int contador = 0; contador <= vetor.length; contador ++) {
 			if(contador % 2 == 0 && contador != 0) {
 				System.out.println(contador);
 
