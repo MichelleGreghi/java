@@ -39,6 +39,7 @@ public class Menu {
 			opcao = leia.nextInt();		
 			
 			if(opcao == 9) {
+				sobre();
 				System.out.println(Cores.TEXT_GREEN_BOLD_BRIGHT + "\nBanco do Brazil com Z - O Seu Futuro Começa Aqui!");
 				leia.close();
 				System.exit(0);
@@ -171,4 +172,10 @@ public class Menu {
 		
 	}
 
+	public static void sobre() {
+		
+		System.out.println("   \nE-mail: michelle.neves23@gmail.com   ");
+		System.out.println("GitHub: https://github.com/MichelleGreghi");
+		System.out.println("           Michelle Greghi\n             ");
+	}
 }
