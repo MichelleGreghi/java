@@ -11,9 +11,6 @@ public class Cliente {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		String nome, cpf, cep;
-		int idade, estadoCivil;
-		
 		
 		Clientes c1 = new Clientes ("Fronzina Camargo", 30, "123.456.789-00", "01234-566", 1);
 		Clientes c2 = new Clientes ("Clotilde Maria", 18, "987.654.321-00", "09876-543", 2);
@@ -24,7 +21,7 @@ public class Cliente {
 		c3.visualizar();
 		
 		
-		
+		leia.close();
 
 	}
 
