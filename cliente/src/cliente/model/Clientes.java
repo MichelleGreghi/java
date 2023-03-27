@@ -4,14 +4,14 @@ public class Clientes {
 	
 	private String nome;
 	private int idade;
-	private String cpf;
+	private String telefone;
 	private String cep;
 	private int estadoCivil;
 	
-	public Clientes(String nome, int idade, String cpf, String cep, int estadoCivil) {
+	public Clientes(String nome, int idade, String telefone, String cep, int estadoCivil) {
 		this.nome = nome;
 		this.idade = idade;
-		this.cpf = cpf;
+		this.telefone = telefone;
 		this.cep = cep;
 		this.estadoCivil = estadoCivil;
 	}
@@ -32,12 +32,12 @@ public class Clientes {
 		this.idade = idade;
 	}
 
-	public String getCpf() {
-		return cpf;
+	public String getTelefone() {
+		return telefone;
 	}
 
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
+	public void setTelefone(String cpf) {
+		this.telefone = cpf;
 	}
 
 	public String getCep() {
@@ -71,7 +71,7 @@ public void visualizar() {
 		System.out.println("Nome: " + this.nome);
 		System.out.println("Idade: " + this.idade);
 		System.out.println("Estado Civil: " + estadoCivil);
-		System.out.println("CPF: " + this.cpf);
+		System.out.println("Telefone: " + this.telefone);
 		System.out.println("CEP: " + this.cep);
 		}
 	
