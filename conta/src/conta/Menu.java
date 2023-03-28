@@ -18,33 +18,13 @@ public class Menu {
         String titular;
         float saldo, limite, valor;
         
-        
-        //objeto
-        Conta c1 = new Conta(1, 123, 1, "Jeniffer Souza", 1000000.00f);
-        c1.visualizar();
-        
         ContaCorrente cc1 = new ContaCorrente(2, 123,1,"Gabriel Machado",100000.00f, 1000.00f );
         cc1.visualizar();
-        
-        cc1.sacar(100900);
-        cc1.visualizar();
-        
-        cc1.depositar(2000);
-        cc1.visualizar();
-        
-        Conta c2 = new Conta();
-        c2.visualizar();
-        
+      
         //Teste da Classe Conta Poupança
-        ContaPoupanca cp1 = new ContaPoupanca(3, 123, 2, "Clodomiro Rangel", 100000.0f, 15);
+        ContaPoupanca cp1 = new ContaPoupanca(3, 123, 2, "Jeniffer Souza", 100000.0f, 15);
         cp1.visualizar();
-        cp1.sacar(1000.0f);
-        cp1.visualizar();
-        cp1.depositar(5000.0f);
-        cp1.visualizar();
-        
-        
-		
+          
 		while(true) {
 			
 			System.out.println(Cores.TEXT_PURPLE_BOLD_BRIGHT + Cores.ANSI_BLACK_BACKGROUND +"*****************************************************");
